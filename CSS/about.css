@@ -1,0 +1,24 @@
+#about {
+    background-color: var(--dusty);
+    margin-bottom: 2rem;
+}
+#profile-pic {
+    text-align: center;
+    align-self: center;
+    padding: 2rem;
+}
+#profile-pic img{
+    border-radius: 25px;
+    height: 50vh;
+    
+    
+}
+#about-text{
+    margin: auto;
+    padding-right: 5rem;
+    
+}
+#about h3{
+    color: var(--pink);
+    text-shadow: 2px 1px var(--lavender);
+}

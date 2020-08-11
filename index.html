@@ -1,13 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nav Loveday Portfolio</title>
-    <link type="text/css" rel="stylesheet" href="CSS/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav Loveday</title>
+  <!--Bootstrap css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap" rel="stylesheet">
+
+  <!--my css-->
+  <link type="text/css" rel="stylesheet" href="CSS/main.css">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
 </head>
+
 <body>
-    <h1>Nav Loveday</h1>
-    <script src="main.js"></script>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" id='navbar-content'>
+        <li class="nav-item active">
+          <a class="nav-link" href="#landing-section">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/adventurernav" target="_blank">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/adventurernav" target="_blank">Github</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid" id="landing-section">
+    <div class="container" id="jumbotron">
+      <h1 class="display-4" id="name-font">Nav Loveday</h1>
+      <p class="lead" id="name-text">JavaScript Developer | Nature Enthusiast</p>
+    </div>
+  </div>
+  <!-- About -->
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col" id="profile-pic"><img src="./assets/square-portrait.jpg" alt=""></div>
+      <div class="col" id="about-text">
+        <h3>Hello! It's nice to meet you. </h3> <br>
+        <h5>I am an entry level JavaScript developer with exceptional communication skills and attention to detail. I
+          always pursue a superior level of client relations to stimulate recurring business. In any environment, I
+          aspire to cultivate a progressive workplace culture with a focus on constant improvement. </h5>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Links -->
+  <div class="container" id="portfolio">
+    <div class="row">
+      <div class="col-lg">
+        CSS Creature
+      </div>
+      <div class="col-lg">
+        Static Layout
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg">
+        API One
+      </div>
+      <div class="col-lg">
+        API Two
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg">
+        Blue Badge
+      </div>
+      <div class="col-lg">
+        Red Badge
+      </div>
+    </div>
+  </div>
+  <!-- Resume -->
+  <div class="container" id="resume">
+
+  </div>
+  <!-- Contact -->
+  <section id="contact" class="container">
+
+    <h3>Contact Me</h3>
+    <form action="https://formspree.io/xbjzborq" method="POST">
+      <label>
+        Your email:<br>
+        <input type="text" name="_replyto">
+      </label><br>
+      <label>
+        Your message:<br>
+        <textarea name="message"></textarea>
+      </label><br>
+      <button id="submit" type="submit">Send</button>
+    </form>
+    <br>
+    <h5>External Links</h5>
+    <a href="https://www.linkedin.com/in/adventurernav" target="_blank">LinkedIn</a>
+    <a href="https://github.com/adventurernav" target="_blank">Github</a>
+
+  </section>
+  <!-- footer -->
+  <footer id="footer">
+    <h1>footer</h1>
+    <p>
+      What kind of information <br> would you put in a footer?
+    </p>
+    <button>top</button>
+  </footer>
+  <!--bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <!--my js-->
+  <script src="main.js"></script>
 </body>
+
 </html>

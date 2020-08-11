@@ -1,0 +1,24 @@
+.jumbotron {
+    background: url(../assets/flower.jpg) no-repeat center;
+    background-size: cover;
+    color: var(--lavender);
+    text-align: center;
+    height: 100vh;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 5rem;
+}
+#jumbotron{
+    background: radial-gradient(var(--fieldgrau1), transparent);
+
+    margin-top: 50vh;
+    padding: 2rem;
+    color: var(--dusky);
+    border-radius: 40px;
+}
+#name-text{
+    font-weight: bold;
+}
+#name-font{
+    font-weight: bolder;
+}

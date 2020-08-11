@@ -1,0 +1,12 @@
+#contact {
+    margin-bottom: 2rem;
+    background-color: var(--morningblue);
+    border: solid .1rem var(--jungle);
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    
+}
+#contact div{
+    width: 50%;
+}

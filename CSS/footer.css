@@ -1,0 +1,6 @@
+#footer{
+    bottom: 0;
+    background: var(--jungle);
+    color: var(--ashgray);
+    margin-bottom: 0;
+}

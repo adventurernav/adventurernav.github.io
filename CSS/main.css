@@ -1,10 +1,8 @@
-body {
-    background-color: #f5cbb7;
-}
-h1 {
-    color: #e77e9b;
-    text-align: center;
-}
-div {
-    background-color: #5c4e5f;
-}
+@import "variables.css";
+@import "body.css";
+@import "navbar.css";
+@import "header.css";
+@import "footer.css";
+@import "about.css";
+@import "project.css";
+@import "contact.css";

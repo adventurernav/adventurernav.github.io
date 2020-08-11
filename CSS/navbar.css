@@ -1,0 +1,13 @@
+#navbar-content {
+    font-family: (--font1);
+}
+.navbar {
+    background-color: var(--jungle);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.navbar a {
+    color: var(--ashgray);
+}
