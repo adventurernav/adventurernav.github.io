@@ -1,4 +1,16 @@
 body{
     background: url(../assets/succulents.jpg);
     background-attachment: fixed;
+    
+}
+#lower-content-background{
+    background: url(../assets/succulents.jpg);
+    background-attachment: fixed;
+    width: 100vw;
+    
+}
+#lower-content-blur{
+    width: 100vw;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }

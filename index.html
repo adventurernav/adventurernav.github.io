@@ -10,10 +10,11 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap" rel="stylesheet">
-
+  <!-- FontAwesome (Icons) -->
+  <link rel="stylesheet" href="./assets/fontawesome-free-5.14.0-web/css/all.css">
   <!--my css-->
   <link type="text/css" rel="stylesheet" href="CSS/main.css">
-  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <link rel="icon" type="image/png" href="./assets/favicon-jungle.png">
 </head>
 
 <body>
@@ -27,25 +28,30 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav" id='navbar-content'>
         <li class="nav-item active">
-          <a class="nav-link" href="#landing-section">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#landing-section"><img id='home-icon' src="./assets/favicon-trans.png"></img> <span
+              class="sr-only"></span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#resume">Resume</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link"
+            href="https://docs.google.com/document/d/1Wt115sFXEKjipUhjTVMzoo5CyTPmLvl5b5c1EGMulG0/edit?usp=sharing"
+            target="_blank">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/adventurernav" target="_blank">LinkedIn</a>
+          <a class="nav-link" href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/adventurernav" target="_blank">Github</a>
+          <a class="nav-link" href="https://www.linkedin.com/in/adventurernav" target="_blank"><i
+              class="fab fa-linkedin" aria-hidden="true"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/adventurernav" target="_blank"><i class="fab fa-github"
+              aria-hidden="true"></i></a>
         </li>
       </ul>
     </div>
@@ -54,7 +60,7 @@
   <div class="jumbotron jumbotron-fluid" id="landing-section">
     <div class="container" id="jumbotron">
       <h1 class="display-4" id="name-font">Nav Loveday</h1>
-      <p class="lead" id="name-text">JavaScript Developer | Adventure Enthusiast</p>
+      <p class="lead" id="name-text">JavaScript Developer | Nature Enthusiast | Adventure Seeker</p>
     </div>
   </div>
   <!-- About -->
@@ -69,25 +75,22 @@
       </div>
     </div>
   </div>
-  <!-- Portfolio Links -->
-  <div class="container" id="portfolio">
-    <div class="row">
+<div id="lower-content-background">
+  <section class="container" id="lower-content-blur">
+    <!-- Portfolio Links -->
+    <div class="row" id="portfolio">
       <div class="col-lg">
-        CSS Creature
+        <a href="https://codepen.io/adventurernav/pen/QWyRbMZ" target="_blank">Jake the Dog</a>
       </div>
       <div class="col-lg">
-        Static Layout
+        <a href="https://adventurernav.github.io/staticlayout/" target="_blank"></a> StarWars Static Layout
       </div>
-    </div>
-    <div class="row">
       <div class="col-lg">
-        API One
+        <a href="https://adventurernav.github.io/PokemonAPI/" target="_blank">Pokedex</a>
       </div>
       <div class="col-lg">
         API Two
       </div>
-    </div>
-    <div class="row">
       <div class="col-lg">
         Blue Badge
       </div>
@@ -95,37 +98,37 @@
         Red Badge
       </div>
     </div>
-  </div>
-  <!-- Resume -->
-  <div class="container" id="resume">
 
-  </div>
-  <!-- Contact -->
-  <section id="contact" class="container">
+    <!-- Contact -->
+    <div id="contact" class="row">
 
-    <h3>Contact Me</h3>
-    <form action="https://formspree.io/xbjzborq" method="POST">
-      <label>
-        Your email:<br>
-        <input type="text" name="_replyto">
-      </label><br>
-      <label>
-        Your message:<br>
-        <textarea name="message"></textarea>
-      </label><br>
-      <button id="submit" type="submit">Send</button>
-    </form>
-    <br>
-    <h5>External Links</h5>
-    <a href="https://www.linkedin.com/in/adventurernav" target="_blank">LinkedIn</a>
-    <a href="https://github.com/adventurernav" target="_blank">Github</a>
+      <h3>Let's start a conversation</h3>
+      <form action="https://formspree.io/xbjzborq" method="POST">
+        <label>
+          Your email:<br>
+          <input type="text" name="_replyto">
+        </label><br>
+        <label>
+          Your message:<br>
+          <textarea name="message"></textarea>
+        </label><br>
+        <button id="submit" type="submit">Send</button>
+      </form>
+      <br>
 
+      <a href="https://www.linkedin.com/in/adventurernav" target="_blank">Connect with me on <i class="fab fa-linkedin"
+          aria-hidden="true"></i>Linked In</a>
+
+
+    </div>
   </section>
+</div>
   <!-- footer -->
   <footer id="footer">
     <h1>footer</h1>
-    
-    <button>top</button>
+
+    <a class="nav-link" href="#landing-section"><img id='home-icon' src="./assets/favicon-trans.png"></img> <span
+        class="sr-only"></span></a>
   </footer>
   <!--bootstrap-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

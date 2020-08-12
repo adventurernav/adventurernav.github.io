@@ -11,3 +11,7 @@
 .navbar a {
     color: var(--ashgray);
 }
+#home-icon{
+    height: 2rem;
+   
+}

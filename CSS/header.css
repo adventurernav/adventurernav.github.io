@@ -10,9 +10,10 @@
 }
 #jumbotron{
     background: radial-gradient(var(--fieldgrau1), transparent);
-
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     margin-top: 50vh;
-    padding: 2rem;
+    padding: 1rem;
     color: var(--dusky);
     border-radius: 40px;
 }

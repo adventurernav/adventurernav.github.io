@@ -3,4 +3,5 @@
     background: var(--jungle);
     color: var(--ashgray);
     margin-bottom: 0;
+    text-align: right;
 }
