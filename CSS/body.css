@@ -4,8 +4,7 @@ body{
     
 }
 #lower-content-background{
-    background: url(../assets/succulents.jpg);
-    background-attachment: fixed;
+   
     width: 100vw;
     
 }
@@ -14,3 +13,4 @@ body{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
+
