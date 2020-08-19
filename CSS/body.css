@@ -9,12 +9,20 @@ body{
     background-attachment: fixed;
 }
 .carouselIMG{
-    max-width: 100vw;
-    max-height: 100vh;
+    width: auto;
+    max-height: 65vh;
     margin: auto;
 }
 #travelCarousel{
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-top: 3rem;
+    height: 80vh;
+}
+#carouselTitle{
+    color: var(--pink);
+    text-shadow: 2px 1px var(--lavender);
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--jungle);
 }

@@ -14,7 +14,8 @@
 
 .form-spree{
     width: 30vw;
-    padding-left: 10vw;
+    padding-left: 8vw;
+    padding-top: 1rem;
 }
 .form-spree>button{
     margin-left: 40%;
@@ -25,3 +26,7 @@
 .contact-linkedin{
     color: var(--white);
 }
+.contact-linkedin:hover{
+    color: var(--pink);
+}
+

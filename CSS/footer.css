@@ -4,4 +4,13 @@
     color: var(--ashgray);
     margin-bottom: 0;
     padding-top: 1rem;
+    
+}
+.nav-link{
+    color: var(--ashgray);
+}
+
+.foot-social:hover{
+    color: var(--pink);
+
 }
