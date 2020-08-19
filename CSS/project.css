@@ -1,6 +1,26 @@
-#portfolio {
+#gold-badge, #red-badge, #blue-badge {
     background-color: var(--morningblue);
     border: solid .1rem var(--jungle);
     padding: 1rem;
-    margin-top: 2rem;
+}
+#gold-badge{
+    /* margin-top: 2rem; */
+    top: 20rem;
+}
+div.#gold-badge>a{
+    background-color: (var--dusty);
+}
+.btn-info{
+    background-color: var(--pink);
+    border: 1px solid var(--pink);
+}
+.card{
+    background-color: var(--ashgray);
+    padding-bottom: 1rem;
+
+}
+.card img{
+    width: 100%;
+    height: 46%;
+    object-fit: cover;
 }

@@ -1,12 +1,27 @@
 #contact {
     margin-bottom: 2rem;
-    background-color: var(--morningblue);
+    margin-top: 2rem;
+    background-color: var(--dusty);
     border: solid .1rem var(--jungle);
     padding: 1rem;
-    display: block;
     text-align: center;
     
 }
-#contact div{
-    width: 50%;
+#contact h3{
+    color: var(--pink);
+    text-shadow: 2px 1px var(--lavender);
+}
+
+.form-spree{
+    width: 30vw;
+    padding-left: 10vw;
+}
+.form-spree>button{
+    margin-left: 40%;
+}
+.form-spree>label{
+    color: white;
+}
+.contact-linkedin{
+    color: var(--white);
 }

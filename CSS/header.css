@@ -23,3 +23,9 @@
 #name-font{
     font-weight: bolder;
 }
+#navbar-toggler{
+    background-color: var(--lavender);
+}
+.navbar-toggler-icon> i {
+    padding-top: .45rem;
+}

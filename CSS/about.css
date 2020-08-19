@@ -16,9 +16,14 @@
 #about-text{
     margin: auto;
     padding-right: 5rem;
+    padding-bottom: 3rem;
+    color: white;
     
 }
 #about h3{
     color: var(--pink);
     text-shadow: 2px 1px var(--lavender);
+}
+#about-text h5{
+    font-size: 1.1rem;
 }
