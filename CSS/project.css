@@ -7,7 +7,7 @@
     /* margin-top: 2rem; */
     top: 20rem;
 }
-div.#gold-badge>a{
+#gold-badge>a{
     background-color: (var--dusty);
 }
 .btn-info{
