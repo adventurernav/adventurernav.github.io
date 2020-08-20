@@ -12,15 +12,25 @@
     text-shadow: 2px 1px var(--lavender);
 }
 
-.form-spree{
+#form-spree-form{
     width: 30vw;
     padding-left: 8vw;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    color: white;
 }
-.form-spree>button{
-    margin-left: 40%;
+.form-spree{
+    background-color: var(--lavender);
+    border: 2px var(--lavender) solid;
+    border-radius: 7px;
+    width: 29vw;
 }
-.form-spree>label{
+.form-spree:focus{
+    border: 2px solid var(--jungle);
+}
+#form-spree-form>button{
+    margin-left: 30%;
+}
+#form-spree-form>label{
     color: white;
 }
 .contact-linkedin{

@@ -6,11 +6,13 @@
     text-align: center;
     align-self: center;
     padding: 2rem;
+    
 }
 #profile-pic img{
     border-radius: 25px;
     height: 50vh;
-    
+    border: .75rem double var(--morningblue);
+    padding: .1rem;
     
 }
 #about-text{

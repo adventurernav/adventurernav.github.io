@@ -1,5 +1,6 @@
 body{
-    background-color: var(--jungle)
+    background-color: var(--jungle);
+    font-family: var(--font1);
 }
 #lower-content-background{
     background-image: url(../assets/leaves-0n-black.jpg);
@@ -7,22 +8,4 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}
-.carouselIMG{
-    width: auto;
-    max-height: 65vh;
-    margin: auto;
-}
-#travelCarousel{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-top: 3rem;
-    height: 80vh;
-}
-#carouselTitle{
-    color: var(--pink);
-    text-shadow: 2px 1px var(--lavender);
-    text-align: center;
-    padding: 1rem;
-    background-color: var(--jungle);
 }
