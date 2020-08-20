@@ -16,7 +16,8 @@ div.#gold-badge>a{
 }
 .card{
     background-color: var(--ashgray);
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
+    border: solid 1px var(--ashgray);
 
 }
 .card img{
@@ -26,4 +27,7 @@ div.#gold-badge>a{
 }
 #portfolio{
     padding: 1rem;
+}
+.card-body{
+    height: fit-content;
 }

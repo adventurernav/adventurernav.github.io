@@ -17,8 +17,7 @@
 }
 #about-text{
     margin: auto;
-    padding-right: 5rem;
-    padding-bottom: 3rem;
+    padding: 3rem 5rem 3rem 0;
     color: white;
     
 }
